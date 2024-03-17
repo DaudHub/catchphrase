@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/general.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="game-timer">00:55</p>
+    <div id="game-box">
+        <h1 id="game-title"></h1>
+        <h2 id="guess-count">Guesses: 0</h2>
+        <div id="phrase-box">
+            <p id="phrase-paragraph"></p>
+            <div id="phrase-control-row">
+                <button class="big-button" id="skip-button">Skip</button>
+                <button class="big-button" id="guessed-button">Guessed!</button>
+            </div>
+        </div>
+        <div id="button-row">
+            <button class="small-button" id="start-button">Start</button>
+            <button class="small-button" id="reset-button">Reset</button>
+            <button class="small-button" id="quit-button">Quit</button>
+        </div>
+    </div>
+</body>
+<script src="js/phrases.js"></script>
+<script src="js/game.js"></script>
+</html>
